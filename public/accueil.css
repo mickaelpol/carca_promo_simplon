@@ -1,5 +1,8 @@
 body {
 	background-color: #080808;
+	margin:0;
+	padding:0;
+	font-size: 16px;
 }
 .bg-gris {
 	background-color: #8C8C8C;
@@ -8,11 +11,14 @@ body {
 	text-shadow: 1px 10px 10px #080808;
 }
 img {
-	width: 120px;
-	height: 120px;
-	margin-top: 20px;
-	border-radius: 15px;
-	box-shadow: 1px 1px 20px #B3B3B3;
+	width: 600px;
+	height: 200px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 10px #B3B3B3;
+}
+.simplon {
+	width: 250px;
+	height: 150px;
 }
 .row {
 	margin-top: 60px;

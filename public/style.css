@@ -29,3 +29,6 @@ a:hover {
 	text-decoration: none;
 	cursor: pointer;
  }
+ .marge-top {
+ 	margin-top: 60px;
+ }
