@@ -13,78 +13,15 @@ div(class="container marge-top")
     a(href="accueil") revenir à l'accueil
 
 
-- var tableau = ["valentin", "jeanne", "christopher", "nassim", "jimmy", "julien", "nicolas", "christophe", "isabel", "rithisen", "isabelle", "mickael", "leo", "aurelie", "michael"];
+- var tableau = ["valentin van eersel", "jeanne tiramani", "christopher fourgeaud", "nassim cheurfa", "jimmy bouvier", "julien febvre", "nicolas tiraboschi", "christophe juin", "isabel costanzo", "rithisen pan", "isabelle muckensturm", "mickael pol", "leo subias", "aurelie lecoq", "michael legrand"];
 div(class="container")
  div(class="col-xs-12")
+  ul
    - for(var i = 0; i < tableau.length; i++){
     - var tab = tableau[i];
-     ul(class="list-inline")
       div(class="col-xs-2")
        li: a(href="#" id=tab)=tab
         img(src="http://lorempixel.com/400/200/")
--}
+        -}
 
-// exemple (
-// ul
-//  li salut
-//   img(src="http://lorempixel.com/400/200/")
-// )
 
-// div(class="container")
-//   div(class="row")
-//     div(class="col-xs-12 text-center")
-//       ul(class="list-inline")
-//         div(class="col-xs-2 col-xs-offset-1")
-//           li: a(href="#") valentin
-//           	img(src="http://lorempixel.com/400/200/")
-          
-//         div(class="col-xs-2")
-//           li: a(href="#") jeanne
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") christopher
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") nassim
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") jimmy
-//           img(src="http://lorempixel.com/400/200/")
-
-//   div(class="row")
-//     div(class="col-xs-12 text-center")
-//       ul(class="list-inline")
-//         div(class="col-xs-2 col-xs-offset-1")
-//           li: a(href="#") julien
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") nicolas
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") christophe
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") isabel
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") rithisen
-//           img(src="http://lorempixel.com/400/200/")
-
-//   div(class="row")
-//     div(class="col-xs-12 text-center")
-//       ul(class="list-inline")
-//         div(class="col-xs-2 col-xs-offset-1")
-//           li: a(href="#") isabelle
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") mickael
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") leo
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") aurelie
-//           img(src="http://lorempixel.com/400/200/")
-//         div(class="col-xs-2")
-//           li: a(href="#") michael
-//           img(src="http://lorempixel.com/400/200/")
